@@ -1,0 +1,536 @@
+/* Sportsmate additional page styles for the project */
+
+body {
+	
+	background-color: #000000;
+	background: url(../images/stadium.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.spm-mobile-logo{
+	height: 28px;		
+}
+
+.spm-button-nopaddingleft{
+	padding-left: 0px;
+}
+
+#header_image{
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+/* For auto-sizing the logotype */
+#header_image img {
+ 	max-width: 100%;
+ 	height: auto;
+ 	margin-top: 40px;
+}
+
+#content_area{
+	background-color: white;
+	border-radius: 4px;
+	padding-bottom: 2em;
+	border: thin solid lightgray;
+}
+
+#footer_area{
+	background-color: rgba(20,20,20,0.8);
+	color: #ffffff;
+	border-radius: 5px;
+	padding: 2em 0em 1em 0em;
+	text-align: center;
+	margin-top: 0.3em;
+	margin-bottom: 10px;
+	border: thin solid #222222;
+}
+
+.welcome-group{
+	padding: 0px 15px 10px 15px;
+}
+
+.welcome-group-inner{
+	border-radius: 8px;
+	border: thin solid #e0e0e0;
+	padding: 25px;
+	background-color: #f8f8f8;
+}
+
+.welcome-group-header{
+	margin-bottom: 8px;
+}
+
+.spm-glyphicon-welcome-text{
+	font-size: 20px;	
+}
+
+.welcome-group .glyphicon{
+	font-size: 18px;
+	margin-right: 5px;
+}
+
+.spm-message-moment{
+	border: 0px;
+	background-color: transparent;
+}
+
+.spm-message-glyphicon{
+	font-size: 18px;
+}
+
+.spm-message-list-item{
+	overflow: auto;
+	border-radius: 5px;
+	border: thin solid lightgray;
+	margin-bottom: 10px;
+	padding: 15px 0px 10px 0px;
+	background-color: #f8f8f8;
+
+}
+
+.spm-message-list-btn{
+	margin-top: -5px;
+}
+
+.spm-footer-gly, .spm-footer-gly a{
+	color: #888888;
+}
+
+.spm-footer-gly a:hover{
+	color: white;
+	font-decoration: none;
+}
+.spm-footer-gly .glyphicon{
+	font-size: 18px;	
+}
+
+.spm-copyright{
+	vertical-align: middle;
+	margin-bottom: 10px;
+	color: #888888;
+}
+
+#innercontent_area{
+	padding: 1.5% 2% 1% 2%;
+}
+
+#spm-login-img{
+	border-radius: 5px;
+	opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+.spm-form-error{
+	display: inline-block;
+	margin-top: 2px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-bottom: 4px;
+}
+
+.spm-form-spacing{
+	margin-bottom: 8px;	
+}
+
+.spm-event-header-spacing{
+	margin-top: 14px;
+}
+
+.spm-events-button{
+	margin-top: 5px;
+}
+
+.spm-button-list{
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+.spm-spacing-list{
+	margin-bottom: 25px;
+}
+
+.spm-team-list{
+	display: inline;
+	padding: 14px 20px;
+	border-left-radius: 4px;
+	vertical-align: middle;
+}
+
+.spm-team-list-btn{
+	padding: 9px;
+}
+
+.spm-team-list-wrapper{
+	border: thin solid lightgray;
+	border-radius: 5px;
+	overflow: auto;
+	margin-bottom: 10px;
+}
+
+.spm-event-detail-btn{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.spm-event-joined{
+	padding: 8px 30px;
+	border-radius: 5px;
+}
+
+.spm-event-full{
+	padding: 8px 30px;
+	border-radius: 5px;
+}
+
+/* Details on tables */
+
+.spm-table{
+	/* TODO; */
+}
+
+#row{
+	width: 100%;
+}
+
+.spm-message-field-spacing{
+	margin-bottom: 6px;	
+}
+
+.spm-no-margin-bottom{
+	margin-bottom: 0px;
+}
+
+.spm-mini-input{
+	width: 20px;
+}
+
+/* OVERWRITES BOOTSTRAP DEFAULT FOR REMOVE EXTRA-BORDER IN 'XS' TABLES */
+.table-responsive{
+	border: none; 
+}
+/* ************* */
+
+.spm-table-hook th{
+	background-color: transparent;
+}
+
+.spm-table-hook .sortable{
+	background-color: #d6e9c6;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.spm-tournaments-sportcolumn{
+	width: 10%;
+	vertical-align: top;
+	text-align: center;
+	padding-top: 15px;
+}
+
+table{
+	margin: 20px 0 20px 0;
+}
+
+th{
+	background-color: #d6e9c6;
+}
+
+.spm-events-table td{
+	display: block;
+}
+
+span.pagebanner {
+	background-color: #eee;
+	border: thin solid lightgray;
+	padding: 4px 8px 4px 8px;
+	margin-top: 10px;
+	display: block;
+	border-bottom: none;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+span.pagelinks {
+	background-color: #eee;
+	border: thin solid lightgray;
+	padding: 4px 8px 4px 8px;
+	display: block;
+	border-top: none;
+	margin-bottom: -5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+
+/* Carousel */
+
+
+#carousel-example-generic{
+	margin-bottom: 5px;
+}
+
+#carousel-example-generic img{
+	width: 100%;
+	height: auto;
+}
+
+.spm-carousel-text{
+	font-size: 25px;
+}
+
+.spm-carousel-text-xs{
+	font-size: 14px;	
+}
+
+.spm-carousel-text-caption-xs{
+	font-size: 11px;
+}
+
+.spm-carousel-text-bck{
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 7px;
+	padding: 4px 2px 2px 2px;
+}
+
+.spm-advertise{
+	color: darkgray;
+	margin-bottom: 25px;
+}
+
+/* Custom search bar */
+.spm-search-input{
+	color: white;
+	border-color: black;
+	background-color: #777;
+}
+
+.spm-search-button{
+	border-color: black;
+	color: lightgray;
+	background-color: #555;
+}
+
+.spm-search-button:hover{
+	border-color: black;
+	color: white;
+	background-color: #999;
+}
+
+.spm-profile-picture-div{
+	padding-top: 20px;
+}
+
+.spm-profile-picture{
+	width: 100%;
+	height: auto;
+	min-width: 150px;
+}
+
+.spm-profile-picture-static{
+	max-width: 200px;
+	min-width: 150px;
+	height: auto;
+	margin-left: 15px;
+}
+
+.spm-message-fixing{
+	padding-top: 10px;
+}
+
+.spm-profile-margin{
+	width: 50px;
+}
+
+.spm-tournament-well .glyphicon{
+	font-size: 18px;
+}
+
+.spm-searchbar-wrapper{
+	padding: 8px;
+}
+
+.spm-search-row{
+	overflow: auto;
+	padding: 10px 0px;
+	border: thin solid lightgray;
+	border-radius: 5px;
+	background-color: #f8f8f8;
+	margin-bottom: 10px;
+}
+
+.spm-search-glyphicon .glyphicon {
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+.spm-3-row-glyphicon .glyphicon{
+	font-size: 18px;
+	padding-top: 20px;
+}
+
+.spm-xs-separator{
+	height: 6px;
+}
+
+.spm-football-event{
+	background-color: #058032;
+	color: white;
+}
+
+.spm-football-event img{
+	width: 18px;
+	height: 18px;
+	 -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.spm-tennis-event{
+	background-color: #C48E54;
+	color: white;
+}
+
+.spm-tennis-event img{
+	width: 18px;
+	height: 18px;
+	 -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.spm-paddle-event{
+	background-color: #4F93B8;
+	color: white;
+}
+
+.spm-paddle-event img{
+	width: 18px;
+	height: 18px;
+	 -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.spm-others-event{
+	background-color: #7A7A7A;
+	color: white;
+}
+
+.spm-others-event img{
+	width: 18px;
+	height: 18px;
+	 -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.spm-my-event{
+	color: black;
+}
+
+.spm-my-event img{
+	width: 14px;
+	height: 14px;
+}
+
+.spm-invoice-payed{
+	width: 228px;
+	height: 44px;
+	border: thin solid green;
+	color: green;
+	border-radius: 5px;
+	padding: 10px 0px;
+	font-size: 18px;
+}
+
+.spm-unpaid-warning{
+	display: inline;
+	border-radius: 5px;
+	border: thin solid #9E7700;
+	color: #9E7700;
+	padding: 5px 15px;
+}
+
+.spm-paid-label{
+	display: inline;
+	border-radius: 5px;
+	border: thin solid green;
+	color: green;
+	padding: 5px 15px;	
+}
+
+.spm-invoices-fix-top-margin{
+	margin-top: 8px;
+}
+
+.spm-invoices-redirect-span{
+	color: #0066CC;
+	padding: 6px 15px;
+	border: thin dashed #0066CC;
+	border-radius: 5px;
+}
+
+.spm-match-row{
+	
+	padding: 6px 6px 6px 10px;
+	border: thin solid lightgray;
+	border-radius: 5px;
+	background-color: #e9e9e9;
+	margin-bottom: 10px;
+		
+}
+/* Provisional & inherit from DP project*/
+
+.error {
+	color: red;
+	font-weight: bolder;
+}
+
+.message {
+	color: red;
+	font-weight: bolder;
+}
+
+
+/* media query for some fixes in xs */
+
+@media (max-width: 768px){
+	
+	body {
+		background: url(../images/cespedestadio.jpg) repeat center center fixed;
+		-webkit-background-size: inherit;
+		-moz-background-size: inherit;
+		-o-background-size: inherit;
+		background-size: inherit;
+	}
+	
+	#content_area{
+		border-radius: 0px;
+		border: 0;
+	}
+	
+	#footer_area{
+		margin-top: 0em;
+		border: none;
+		border-radius: 0px;
+	}
+	
+	.spm-copyright{
+		color: #cccccc;
+	}
+	
+	.spm-button-nopaddingleft{
+		padding-left: 15px;
+	}
+	
+	.spm-unpaid-warning{
+		display: block;
+	
+	}
+
+	.spm-paid-label{
+		display: block;
+	}
+	
+} 
